@@ -48,5 +48,11 @@ public class Arrays2D {
                 keyElement));
 
 
+        int[][] numbers = {{1, 2, 3}, {4, 5, 6}};
+
+        String arrayClass = Arrays.deepToString(numbers);
+
+        System.out.println(arrayClass);
+
     }
 }
